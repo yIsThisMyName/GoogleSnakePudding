@@ -20,7 +20,7 @@ window.pauseGameMod.runCodeAfter = function() {
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.opacity = 1;
         document.querySelector("body > div.Czus3 > div > div.wjOYOd > div").style.visibility = "hidden";
       } else {
-        setTimeout(()=>{document.querySelector("body > div.Czus3 > div > div.wjOYOd > div").style.visibility = "visible";},500);
+        setTimeout(()=>{if(!window.pauseGame){document.querySelector("body > div.Czus3 > div > div.wjOYOd > div").style.visibility = "visible";}},500);
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.visibility = "hidden";
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.opacity = 0;
       }
