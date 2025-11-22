@@ -18,7 +18,9 @@ window.pauseGameMod.runCodeAfter = function() {
       if(window.pauseGame){
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.visibility = "visible";
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.opacity = 1;
+        document.querySelector("body > div.Czus3 > div > div.wjOYOd > div").style.visibility = "hidden";
       } else {
+        document.querySelector("body > div.Czus3 > div > div.wjOYOd > div").style.visibility = "visible";
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.visibility = "hidden";
         document.querySelector("body > div.Czus3 > div > div.wjOYOd").style.opacity = 0;
       }
