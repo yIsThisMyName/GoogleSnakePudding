@@ -50,4 +50,7 @@ window.MorePudding.runCodeAfter = function() {
   modIndicator.textContent = 'More Pudding Mod';
   let canvasNode = document.getElementsByClassName('jNB0Ic')[0];
   document.getElementsByClassName('EjCLSb')[0].insertBefore(modIndicator, canvasNode);
+
+  // adds pause mod
+  window.PauseGameMod.runCodeAfter();
 };
