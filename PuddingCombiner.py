@@ -15,7 +15,7 @@ lib_list = [
     "Timer",
     "BootstrapMenu",
     "RenderDelayFix"
-    #,"CustomPortalPairs"
+    #,\"CustomPortalPairs"
     ]
 for lib in lib_list:
     lib_file = open(f"Libraries/{lib}.js", encoding='utf-8')
