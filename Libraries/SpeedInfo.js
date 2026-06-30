@@ -608,7 +608,6 @@ window.SpeedInfo.make = function () {
         if (convertedTime.includes('h')) {
             convertedTime = convertedTime.split('s')[0] + "s";
         }
-        console.log(convertTime)
 
         return convertedTime;
     }
